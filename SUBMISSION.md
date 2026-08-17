@@ -78,14 +78,16 @@ Include:
 - **`contact.html`**: VIP Early Access Application with real-time validation, dynamic toast feedback, and Live Local Session Submission Inspector.
 - **`css/style.css`**: Full CSS custom property design system, glassmorphism, responsive grid/flexbox, animations, and accessible focus states.
 - **`js/app.js`**: Modular zero-dependency JavaScript engine managing themes, navigation, calculators, pricing switches, search filtering, and local data persistence.
-- **`vercel.json` & `netlify.toml`**: Production deployment configurations with HTTP security headers.
+- **`netlify.toml`**: Production deployment configurations.
 
 ---
 
 ### 8. Live Project & Deployment Links
 
-- **Live Production URL (Vercel)**: [`https://novapulse-ai.vercel.app`](https://novapulse-ai.vercel.app)
-- **GitHub Repository**: [`https://github.com/HomePC/novapulse-ai`](https://github.com/HomePC/novapulse-ai)
+- **Primary Live Production Website (Vercel)**: [https://novapulse-ai-seven.vercel.app/](https://novapulse-ai-seven.vercel.app/)
+- **Branch Deployment URL (Git Main)**: [https://novapulse-ai-git-main-a7-web-and-craft.vercel.app/](https://novapulse-ai-git-main-a7-web-and-craft.vercel.app/)
+- **Deployment Instance URL**: [https://novapulse-nvlaf0dw7-a7-web-and-craft.vercel.app/](https://novapulse-nvlaf0dw7-a7-web-and-craft.vercel.app/)
+- **GitHub Repository**: [https://github.com/anuu7/novapulse-ai](https://github.com/anuu7/novapulse-ai)
 - **Deployment Pipeline**: Continuous Deployment via GitHub ➔ Vercel (Automatic production builds upon `git push`).
 
 ---

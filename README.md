@@ -2,8 +2,10 @@
 
 > Built with **Google Antigravity** & iteratively enhanced using **Claude 3.5 Sonnet** and **OpenAI Codex**.
 
+- **Primary Live Production Website**: [https://novapulse-ai-seven.vercel.app/](https://novapulse-ai-seven.vercel.app/)
+- **Branch Deployment URL**: [https://novapulse-ai-git-main-a7-web-and-craft.vercel.app/](https://novapulse-ai-git-main-a7-web-and-craft.vercel.app/)
+- **Instance URL**: [https://novapulse-nvlaf0dw7-a7-web-and-craft.vercel.app/](https://novapulse-nvlaf0dw7-a7-web-and-craft.vercel.app/)
 - **GitHub Repository**: [https://github.com/anuu7/novapulse-ai](https://github.com/anuu7/novapulse-ai)
-- **Live Vercel Site**: [https://novapulse-ai-anuu7.vercel.app](https://novapulse-ai-anuu7.vercel.app)
 
 ---
 
@@ -16,16 +18,4 @@
   - `contact.html`: VIP Early Access Alpha Application with Real-Time Client-Side Validation, Dynamic Toast Notification Manager, and Local Session Submission Inspector.
 - **Glassmorphism Design System**: Modern dark & light mode support with CSS custom property design tokens, backdrop filters, and responsive mobile navigation drawer.
 - **High Performance & Zero Dependencies**: 100/100 Lighthouse-ready with semantic HTML5, zero heavy third-party framework overhead, and instant load times.
-- **Universal Deployment Ready**: Pre-configured for instant zero-configuration deployment to **Vercel** (`vercel.json`), **Netlify** (`netlify.toml`), or **GitHub Pages**.
-
----
-
-## 🚀 Push to GitHub & Deploy to Vercel
-
-```bash
-# Push to GitHub
-git push -u origin main
-
-# Deploy to Vercel
-npx vercel
-```
+- **Universal Deployment Ready**: Pre-configured with continuous deployment on Vercel and Netlify.
