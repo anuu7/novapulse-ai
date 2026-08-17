@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIP Access & Inquiries - NovaPulse AI</title>
+  <meta name="description" content="Apply for early Alpha access to NovaPulse AI or connect with our biomedical research & engineering teams.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" aria-label="NovaPulse Home">
+        <div class="logo-icon">⚡</div>
+        <span>NovaPulse<span style="color: var(--accent-primary)">.AI</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About & Science</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing & Plans</a></li>
+          <li><a href="contact.html" class="nav-link active">VIP Access</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle light or dark theme">☀️</button>
+        <a href="contact.html" class="btn btn-primary btn-sm">Get Early Access</a>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contact Hero -->
+    <section class="hero" style="padding-bottom: 2rem;">
+      <div class="container" style="text-align: center; max-width: 48rem;">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          <span>Cohort 4 Priority Onboarding</span>
+        </div>
+        <h1 class="hero-title">
+          Claim Your Spot in the <span class="gradient-text">Private Alpha</span>
+        </h1>
+        <p class="hero-description" style="margin: 0 auto 2rem;">
+          Join our curated beta cohort of bio-hackers, executives, and performance athletes. Instant access granted to qualified applicants.
+        </p>
+      </div>
+    </section>
+
+    <!-- Form & Submissions Section -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="form-grid">
+          <!-- Interactive Form -->
+          <div class="glass-card">
+            <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem;">VIP Early Access Application</h2>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 2rem;">
+              Fill out the form below to receive your personalized on-device neural onboarding token.
+            </p>
+
+            <form id="vip-contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Full Name *</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Alex Morgan" required minlength="2">
+                <div class="form-helper">Enter your legal or preferred name.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address *</label>
+                <input type="email" id="form-email" class="form-input" placeholder="alex@company.com" required>
+                <div class="form-helper">We will send your Alpha invitation and cryptographic key here.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-role" class="form-label">Primary Optimization Goal</label>
+                <select id="form-role" class="form-select">
+                  <option value="Circadian & Sleep Architecture">Circadian & Sleep Architecture</option>
+                  <option value="Deep Focus Flow Windows">Deep Focus & Cognitive Endurance</option>
+                  <option value="Autonomic Stress Recovery">Autonomic Stress & Burnout Prevention</option>
+                  <option value="Metabolic & Glucose Energy">Metabolic & Nutritional Energy Timing</option>
+                  <option value="Enterprise / Team Vitality">Corporate / Team Performance</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Current Wearables & Bio-Routines (Optional)</label>
+                <textarea id="form-message" class="form-textarea" rows="4" placeholder="Tell us about the devices you wear (Oura, Apple Watch, Garmin) and your biggest energy bottleneck..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                Submit Alpha Application ⚡
+              </button>
+            </form>
+          </div>
+
+          <!-- Live Session Submission Inspector -->
+          <div>
+            <div class="submissions-box">
+              <div class="submissions-header">
+                <div>
+                  <h3 style="font-size: 1.15rem; font-weight: 700;">Active Client Session Log</h3>
+                  <span style="font-size: 0.8rem; color: var(--text-muted);">Stored securely in your local browser sandbox</span>
+                </div>
+                <button id="clear-submissions-btn" class="btn btn-secondary btn-sm" style="font-size: 0.75rem; padding: 0.3rem 0.6rem;">Clear Log</button>
+              </div>
+
+              <div id="submissions-list">
+                <!-- Submissions injected via js/app.js -->
+              </div>
+            </div>
+
+            <!-- Scientific Inquiries Card -->
+            <div class="glass-card" style="margin-top: 1.5rem; padding: 1.75rem;">
+              <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;">Institutional & Press Inquiries</h3>
+              <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 1.25rem; line-height: 1.5;">
+                For clinical partnerships, academic data requests, or media interviews, reach our direct liaison desk:
+              </p>
+              <div style="font-size: 0.9rem; margin-bottom: 0.5rem;">
+                <strong style="color: var(--text-primary);">Email:</strong> 
+                <a href="mailto:press@novapulse.ai" style="color: var(--accent-primary);">press@novapulse.ai</a>
+              </div>
+              <div style="font-size: 0.9rem;">
+                <strong style="color: var(--text-primary);">Headquarters:</strong> 
+                <span style="color: var(--text-secondary);">450 Bio-Design Way, Palo Alto, CA 94304</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo">
+            <div class="logo-icon">⚡</div>
+            <span>NovaPulse.AI</span>
+          </div>
+          <p>The autonomous bio-intelligence platform engineered to maximize human focus, energy, and longevity.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Platform</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Live Overview</a></li>
+            <li><a href="about.html">Neural Engine</a></li>
+            <li><a href="pricing.html">Pricing Plans</a></li>
+            <li><a href="about.html#roadmap">2026 Roadmap</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Science</h4>
+          <ul class="footer-links">
+            <li><a href="about.html#research">Clinical Studies</a></li>
+            <li><a href="about.html#privacy">Zero-Knowledge AI</a></li>
+            <li><a href="about.html#biometrics">Wearable Integration</a></li>
+            <li><a href="contact.html">Research Grants</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html">VIP Early Access</a></li>
+            <li><a href="contact.html#support">Developer API</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener">GitHub Repository</a></li>
+            <li><a href="https://twitter.com" target="_blank" rel="noopener">X / Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 NovaPulse AI Technologies Inc. All rights reserved.</span>
+        <span>Crafted with Antigravity + Claude + OpenAI Codex</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
