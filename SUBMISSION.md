@@ -54,7 +54,7 @@ Include:
 - **Prompt Given**:
   > *"Act as a lead frontend engineer using OpenAI Codex. Implement interactive client-side components for NovaPulse AI: (1) A robust Dark/Light theme toggle that persists across page refreshes using localStorage, (2) An interactive Daily Vitality Score Calculator with multi-slider inputs for sleep, activity, and focus hours that calculates a dynamic score and badge, (3) An annual vs. monthly pricing toggle that updates prices dynamically with a 25% discount calculation, and (4) A real-time search filter for the FAQ accordion."*
 - **Enhancements Made**:
-  - Implemented `initTheme()` with seamless dark/light mode attribute switching (`data-theme`) and localStorage caching.
+  - Implemented `initTheme()` with seamless dark/light mode attribute switching (`data-theme`) and `localStorage` caching.
   - Implemented `initVitalityCalculator()` with weighted biological indexing formulas updating live badges (e.g., *Peak Bio-State*, *Balanced Vitality*, *Burnout Risk*).
   - Implemented `initPricingToggle()` for instant pricing math updates across all 3 tiers.
   - Created `initFaqAccordion()` with live debounced search query filtering.
@@ -82,17 +82,11 @@ Include:
 
 ---
 
-### 8. Live Website Link & Deployment Instructions
+### 8. Live Project & Deployment Links
 
-- **Live URL**: `https://novapulse-ai.vercel.app` *(or custom Vercel / Netlify deployment)*
-- **One-Command Deployment Options**:
-  ```bash
-  # Vercel Deployment
-  npx vercel
-
-  # Netlify Deployment
-  npx netlify deploy --prod
-  ```
+- **Live Production URL (Vercel)**: [`https://novapulse-ai.vercel.app`](https://novapulse-ai.vercel.app)
+- **GitHub Repository**: [`https://github.com/HomePC/novapulse-ai`](https://github.com/HomePC/novapulse-ai)
+- **Deployment Pipeline**: Continuous Deployment via GitHub ➔ Vercel (Automatic production builds upon `git push`).
 
 ---
 

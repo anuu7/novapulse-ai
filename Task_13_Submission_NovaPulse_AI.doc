@@ -23,7 +23,7 @@
   <h1>Task 13: Build &amp; Enhance a Web Application Using Antigravity + AI Extensions</h1>
   
   <div class="box">
-    <strong>Executive Overview:</strong> Full submission document covering project ideation, initial Antigravity prototype, 3-stage AI iteration cycles (Claude 3.5 Sonnet &amp; OpenAI Codex), final production build, deployment configurations, and structured reflection.
+    <strong>Executive Overview:</strong> Full submission document covering project ideation, initial Antigravity prototype, 3-stage AI iteration cycles (Claude 3.5 Sonnet &amp; OpenAI Codex), final production build, GitHub + Vercel deployment pipeline, and structured reflection.
   </div>
 
   <h2>1. Project Name</h2>
@@ -88,8 +88,12 @@
     <li><strong><code>vercel.json</code> &amp; <code>netlify.toml</code>:</strong> Production deployment configurations with HTTP security headers.</li>
   </ul>
 
-  <h2>8. Live Website Link</h2>
-  <p><strong>Production Link:</strong> <a href="https://novapulse-ai.vercel.app">https://novapulse-ai.vercel.app</a></p>
+  <h2>8. Live Project &amp; Deployment Links</h2>
+  <ul>
+    <li><strong>Live Website Link (Vercel):</strong> <a href="https://novapulse-ai.vercel.app">https://novapulse-ai.vercel.app</a></li>
+    <li><strong>GitHub Repository Link:</strong> <a href="https://github.com/HomePC/novapulse-ai">https://github.com/HomePC/novapulse-ai</a></li>
+    <li><strong>Deployment Pipeline:</strong> Continuous Deployment via GitHub &rarr; Vercel Integration (Automatic production builds on git push).</li>
+  </ul>
 
   <h2>9. Reflection (220 words)</h2>
   <p><strong>How did your website improve across iterations?</strong><br>
