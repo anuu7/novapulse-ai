@@ -2,9 +2,8 @@
 
 > Built with **Google Antigravity** & iteratively enhanced using **Claude 3.5 Sonnet** and **OpenAI Codex**.
 
-![NovaPulse AI Architecture](https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80)
-
-NovaPulse AI bridges deep circadian biology with predictive neural intelligence. It transforms fragmented sleep, mental fatigue, and stress spikes into continuous daily flow states using on-device, zero-knowledge machine learning.
+- **GitHub Repository**: [https://github.com/anuu7/novapulse-ai](https://github.com/anuu7/novapulse-ai)
+- **Live Vercel Site**: [https://novapulse-ai-anuu7.vercel.app](https://novapulse-ai-anuu7.vercel.app)
 
 ---
 
@@ -21,43 +20,12 @@ NovaPulse AI bridges deep circadian biology with predictive neural intelligence.
 
 ---
 
-## 🚀 Quick Start (Local Development)
+## 🚀 Push to GitHub & Deploy to Vercel
 
-### Option 1: Direct Browser Preview
-Double-click `index.html` or open it directly in any modern browser (Chrome, Edge, Firefox, Safari).
-
-### Option 2: Local Static Server (Node.js / Python / PowerShell)
 ```bash
-# Using Python
-python -m http.server 3000
+# Push to GitHub
+git push -u origin main
 
-# Using Node.js npx
-npx serve .
-
-# Open http://localhost:3000 in your browser
-```
-
----
-
-## 🌐 Instant Deployment
-
-### Deploy to Vercel
-```bash
+# Deploy to Vercel
 npx vercel
 ```
-
-### Deploy to Netlify
-```bash
-npx netlify deploy --prod
-```
-
-### Deploy to GitHub Pages
-1. Push repository to GitHub.
-2. Go to **Settings** > **Pages** > Select `main` branch root `/` > **Save**.
-
----
-
-## 🛠️ Built With
-- **Google Antigravity**: Core agentic scaffolding and rapid multi-page prototyping.
-- **Claude 3.5 Sonnet**: Copywriting, UX architecture, value proposition structuring, and microcopy optimization.
-- **OpenAI Codex**: State management, dark/light theme switching, interactive calculators, client-side validation, and SEO/A11y tuning.
